@@ -316,12 +316,7 @@ export type MarketResolutionCheck =
  * SSE subscription channels
  */
 export type SubscriptionChannel =
-  | 'markets'
-  | 'market'
-  | 'predictions'
-  | 'dealers'
-  | 'oracle'
-  | 'discussions';
+  'markets' | 'market' | 'predictions' | 'dealers' | 'oracle' | 'discussions';
 
 /**
  * SSE event types
