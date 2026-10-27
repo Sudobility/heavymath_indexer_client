@@ -44,6 +44,7 @@ export default [
       prettier: prettier,
     },
     rules: {
+      'preserve-caught-error': 'off',
       ...typescript.configs.recommended.rules,
       ...prettierConfig.rules,
 
@@ -88,6 +89,7 @@ export default [
       },
     },
     rules: {
+      'preserve-caught-error': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       'no-console': 'off',
     },
