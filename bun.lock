@@ -6,8 +6,8 @@
       "name": "@sudobility/heavymath_indexer_client",
       "devDependencies": {
         "@eslint/js": "^9",
-        "@sudobility/heavymath_types": "^0.0.41",
-        "@sudobility/types": "^1.9.78",
+        "@sudobility/heavymath_types": "^0.0.42",
+        "@sudobility/types": "^1.9.79",
         "@tanstack/react-query": "~5.104.5",
         "@testing-library/dom": "~10.4.2",
         "@testing-library/react": "~16.3.3",
@@ -32,8 +32,8 @@
         "zustand": "~5.0.16",
       },
       "peerDependencies": {
-        "@sudobility/heavymath_types": "^0.0.41",
-        "@sudobility/types": "^1.9.78",
+        "@sudobility/heavymath_types": "^0.0.42",
+        "@sudobility/types": "^1.9.79",
         "@tanstack/react-query": ">=5.0.0",
         "react": ">=18.0.0",
         "zustand": "^5.0.0",
@@ -169,9 +169,9 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
 
-    "@sudobility/heavymath_types": ["@sudobility/heavymath_types@0.0.41", "https://npm.pkg.github.com/download/@sudobility/heavymath_types/0.0.41/4045183b52441395d94fb3af1aefeb8c34b3c1a1", { "peerDependencies": { "viem": "^2.0.0" } }, "sha512-UZOmBDN/euUKAcxWxVSFhm+sepRA/+ibPyiMRtX8crHQlDVH2u63KvgUW0re9q/Si0DzbUjDzSQmgVhUhMf4mQ=="],
+    "@sudobility/heavymath_types": ["@sudobility/heavymath_types@0.0.42", "https://npm.pkg.github.com/download/@sudobility/heavymath_types/0.0.42/aadf7df94b78236c6974a8f0ce1cee270d2e7b8d", { "peerDependencies": { "viem": "^2.0.0" } }, "sha512-1XdWrYqxTH5dlR/yPvrbTTSX50lYzsVOr73xv4o+nXW8uRuqBwyz1xxBBBWeXt+BTOJFS2fuLW0hVYUa0qReYg=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.78", "https://npm.pkg.github.com/download/@sudobility/types/1.9.78/19ca0df5ad7d490bafc1b84384a8002f5dbc29ea", {}, "sha512-W6DYMUf7D0cVVUHDv5T8YZ339Wyay6xPx0CsdfNVgHDsm1ISDLhwacUwlM9xnvwXHGuAhP77wRVVo3uKGZe46Q=="],
+    "@sudobility/types": ["@sudobility/types@1.9.79", "https://npm.pkg.github.com/download/@sudobility/types/1.9.79/59975e39d6ab7e215418a489ef3cfe214b7521f4", {}, "sha512-rRtDT++fVy+I1m6E31fq752lxCQytFzwfqpJe5wDMPLcC1rJOBa7v+4+5e3cmX8VV1CsuLg8PTLMFe6A7AELRQ=="],
 
     "@tanstack/query-core": ["@tanstack/query-core@5.104.5", "", {}, "sha512-Q94gI8Opd+CbdVNOdj8ZCyV8WqLYitrDq1t96Xc8WZT6lY0r5iRnJLXYDxMex7EEf2v+mXvn4FcjaBKSxXZQ9A=="],
 
