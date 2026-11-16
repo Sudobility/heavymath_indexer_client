@@ -750,15 +750,20 @@ export class IndexerClient {
   }
 
   /**
-   * Get health status of the indexer.
-   * GET /api/health
+   * Get the basic health status of the indexer itself.
+   * GET /health
    *
-   * @returns The indexer health status
+   * Returns the generic `{ status, version }` health payload. The richer
+   * per-service health endpoints (`/api/markets/health`, etc.) return
+   * `ServiceHealthData` and have their own methods/types.
+   *
+   * @returns The indexer health status (`HealthData` is an alias of the generic
+   *   `HealthResponse` from `@sudobility/types`)
    * @throws Error if the request fails
    */
   async getHealth(): Promise<ApiResponse<HealthData>> {
     const response = await this.networkClient.get<ApiResponse<HealthData>>(
-      buildUrl(this.baseUrl, '/api/health')
+      buildUrl(this.baseUrl, '/health')
     );
 
     if (!response.ok || !response.data) {

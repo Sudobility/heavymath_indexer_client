@@ -467,12 +467,12 @@ describe('IndexerClient', () => {
 
   describe('getHealth', () => {
     it('should fetch health status', async () => {
-      const mockData = { success: true, data: { status: 'healthy' } };
+      const mockData = { success: true, data: { status: 'healthy', version: '1.0.0' } };
       vi.mocked(mockNetworkClient.get).mockResolvedValue(mockSuccess(mockData));
 
       const result = await client.getHealth();
 
-      expect(mockNetworkClient.get).toHaveBeenCalledWith(`${BASE_URL}/api/health`);
+      expect(mockNetworkClient.get).toHaveBeenCalledWith(`${BASE_URL}/health`);
       expect(result).toEqual(mockData);
     });
   });

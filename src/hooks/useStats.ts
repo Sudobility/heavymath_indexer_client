@@ -36,13 +36,13 @@ export function useMarketStats(
 
 /**
  * Get health status of the indexer
- * GET /api/health
+ * GET /health
  *
  * @example
  * ```tsx
  * const { data, isLoading } = useHealth(client);
  * if (data?.success) {
- *   // data.data.status, data.data.timestamp
+ *   // data.data.status, data.data.version
  * }
  * ```
  */
